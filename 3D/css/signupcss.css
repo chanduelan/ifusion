@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+button{
+    width: 200px;
+    background-image: linear-gradient(skyblue,rgb(98, 98, 238));
+}
+.heading{
+    line-height: 0;
+}
+.container-all{
+    margin: auto;
+    text-align: center;
+    width: 450px;
+    height: 580px;
+    padding: 10px;
+    background-image: linear-gradient(lavender,white,rgb(243, 206, 206));
+}
+label{
+    width: 150px;
+    display: inline-block;
+}
+input{
+    width: 200px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+    list-style-position: inside;
+    list-style-type:none;
+}
+li{
+    width: 500px;
+}
+.suggestions li{
+    float:right;
+}
